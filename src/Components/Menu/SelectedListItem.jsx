@@ -51,16 +51,6 @@ function SelectedListItem(props) {
           </ListItemIcon>
           <ListItemText primary="Send Solana" />
         </ListItemButton>
-
-        <ListItemButton
-          selected={selectedIndex === 3}
-          onClick={(event) => handleListItemClick(event, 3)}
-        >
-          <ListItemIcon>
-            <Info/>
-          </ListItemIcon>
-          <ListItemText primary="About us" />
-        </ListItemButton>
         
       </List>
     </Box>
